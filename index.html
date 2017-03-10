@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive Graphics Project</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    </head>
+
+    <body>
+	    <audio autoplay>
+			<source src="./others/sounds/mainSound.mp3" type="audio/mpeg">
+  			Your browser does not support the audio tag.
+		</audio>
+		<img id="life" src="./others/lives/3lives.png">
+		<div id="score">0</div>
+		<div id='score_label'> Score: </div>
+		<div id='time'></div>
+		<div id='start'> Press 'Space' to Start </div>
+		<div id='end1'> </div>
+		<div id='end2'> </div>
+      
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </body>
+
+    <script type="text/javascript" src="js/babylon.js"></script>
+    <script type="text/javascript" src="js/initScene.js"></script>
+</html>
